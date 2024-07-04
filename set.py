@@ -1,6 +1,6 @@
 """
 Unordered
-Uuchangeable - but remove items and add new items
+Unchangeable - but remove items and add new items
 Unindexed
 """
 # set Declare
@@ -35,13 +35,27 @@ Delate Value
 discard()
 remove()
 """
-
+# Discard Value
 my_set3 = {1,2,3,4,5}
+print(my_set3)
 my_set3.discard(2)
 print(my_set3)
-
+# Remove Value
 my_set3.remove(4)
 print(my_set3)
+
+"""
+Union (|), Intersection (&) and Defference (-)
+"""
+a = {1, 2, 3, 4, 5, 6}
+b = {4, 5, 6, 7, 8, 9}
+
+uni = a | b
+inter = a & b
+defer = a - b
+print("union:", uni)
+print("intersection: ", inter)
+print("Defference: ", defer)
 
 
 
