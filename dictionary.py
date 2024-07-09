@@ -1,7 +1,9 @@
 """
+dictionary declare, type, print dictionary, indexing dictionary, Value add, pop(delate), Clear
 Key: value
 key always unique
 changeable
+
 """
 
 # Dictionary Declare
@@ -30,17 +32,21 @@ print(my_dict.get("name")) # output: ['maisha Rahman', 'Mehenaf Rahman']
 print(my_dict.get("age"))  # None
 #print(my_dict.get["age"]) # KeyError: "age"
 
-
+# add & Change
 my_dict["name"] = "Mahmud Hasan"
 print(my_dict)
 my_dict ["age"] = 27
 print(my_dict)
 
+#Value Delete
 my_dict.pop("name")
-print(my_dict)
+print("pop :",my_dict)
 
 my_dict.clear()
-print(my_dict)
+print("Cleare :",my_dict)
+
+
+
 
 
 

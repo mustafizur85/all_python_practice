@@ -47,8 +47,9 @@ print(my_set3)
 """
 Union (|), Intersection (&) and Defference (-)
 """
-a = {1, 2, 3, 4, 5, 6}
-b = {4, 5, 6, 7, 8, 9}
+a = {1, 2, 3, 4, 4, 4, 5, 6}
+b = {4, 4, 5, 6, 7, 8, 9}
+
 
 uni = a | b
 inter = a & b
