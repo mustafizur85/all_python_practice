@@ -15,6 +15,7 @@ while (condition):
     block of Code
 incriment/ decriment
 """
+"""
 # Aprose 01
 print("Aprose 01 :")
 start = 1
@@ -77,7 +78,54 @@ while start <= num_of_rept:
     result = num1 + num2
     print(result)
     start+= 1
+"""
 
+# 1 - 99 পর্যন্ত বিজোড় সংখ্যা বের কর।
+# Aprose 08
+print("Aprose 08 ( Odd Number 1 - 99) :")
+end     = 99
+start   = 1
+
+while (start<=end):
+    if (start % 2==1):
+        print(start)
+    start+= 1
+
+
+# 2 - 100 পর্যন্ত বিজোড় সংখ্যা বের কর।
+# Aprose 09
+print("Aprose 09 ( Even Number 2 - 100) ")
+end     =   100
+start   =   1
+
+while (start<=end):
+    if(start % 2 == 0):
+        print(start)
+    start+= 1
+
+# 2 - 100 পর্যন্ত বিজোড় সংখ্যা বের কর।
+# Aprose 09
+# Dainamic
+print("Aprose 09 ( Even Number) ")
+end     =   int(input("How Many times looping :"))
+start   =   1
+
+while (start<=end):
+    if(start % 2 == 0):
+        print(start)
+    start+= 1
+
+# 2 - 100 পর্যন্ত বিজোড় সংখ্যা বের কর।
+# Aprose 10
+# Dainamic
+print("Aprose 09 ( Odd Number) :")
+end     =   int(input("How Many times looping :"))
+start   =   1
+
+while (start<=end):
+    if(start % 2 == 1):
+        print(start)
+    start+= 1
 
 
 
