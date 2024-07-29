@@ -78,7 +78,7 @@ while start <= num_of_rept:
     result = num1 + num2
     print(result)
     start+= 1
-"""
+
 
 # 1 - 99 পর্যন্ত বিজোড় সংখ্যা বের কর।
 # Aprose 08
@@ -115,7 +115,7 @@ while (start<=end):
         print(start)
     start+= 1
 
-# 2 - 100 পর্যন্ত বিজোড় সংখ্যা বের কর।
+# 2 - 100 পর্যন্ত জোড় সংখ্যা বের কর।
 # Aprose 10
 # Dainamic
 print("Aprose 09 ( Odd Number) :")
@@ -125,6 +125,54 @@ start   =   1
 while (start<=end):
     if(start % 2 == 1):
         print(start)
+    start+= 1
+
+
+#list এর ভিতরের ডাটা গুলোর যোগফল নির্ণয়।
+
+print("List of Sum Aproce - 01")
+lst = [20,30,40,50,60,70]
+lst_of_length = len(lst)
+
+start = 0
+sum = 0
+
+while start < lst_of_length:
+    sum+= lst[start]
+    start+= 1
+    print(sum) # output: 20, 50,90,140,200,270
+
+
+print("List of Sum Aproce - 02")
+lst = [20,30,40,50,60,70]
+lst_of_length = len(lst)
+
+start = 0
+sum = 0
+
+while start < lst_of_length:
+    sum+= lst[start]
+    start+= 1
+print(sum) # output: 270
+
+"""
+"""
+Ques: User  দুটি integer Number input দিবে যদি number দুটি সমান হয় তাহলে print করবে (=),
+num2 এর তুলনায় num1 যদি ছোট হয় তাহলে print করবে (<)
+এবং num2 এর তুলনায় num1 যদি বড় হয় তাহলে print করবে (>)।
+"""
+user_input = int(input("How Many times Looping :"))
+start = 1
+
+while start <= user_input:
+    num1 = int(input("Enter Your First Number :"))
+    num2 = int(input("Enter Your 2nd Number :"))
+    if (num1 < num2):
+        print("<")
+    elif (num1 > num2):
+        print(">")
+    elif (num1 == num2):
+        print("=")
     start+= 1
 
 
