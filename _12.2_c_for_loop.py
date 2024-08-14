@@ -45,3 +45,12 @@ sum = 0
 for num in range(10, 20):
     sum+= num
     print(sum)
+
+print("Sum Aproce - 04 :")
+
+lst = [10, 20, 30]
+start = 0
+sum = 0
+for num in lst:
+    sum = sum + num
+print(sum)

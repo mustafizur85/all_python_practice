@@ -15,11 +15,10 @@ while (condition):
     block of Code
 incriment/ decriment
 """
-"""
 # Aprose 01
 print("Aprose 01 :")
 start = 1
-while start<=8:
+while start<=1000:
     print("Hello Word")
     start += 1
 
@@ -28,7 +27,7 @@ print("Aprose 02 :")
 end = 5
 start = 1
 while start<=end:
-    print("Hello Word")
+    print("Afifa Jaman")
     start += 1
 
 # Aprose 03
@@ -38,7 +37,7 @@ start = 1
 while start<= end:
     print(start)
     start += 1
-
+"""
 # Aprose 04
 print("Aprose 04 :")
 num_of_rept = int(input("How Many times to Your Rept: "))
@@ -155,12 +154,11 @@ while start < lst_of_length:
     start+= 1
 print(sum) # output: 270
 
-"""
-"""
+
 Ques: User  দুটি integer Number input দিবে যদি number দুটি সমান হয় তাহলে print করবে (=),
 num2 এর তুলনায় num1 যদি ছোট হয় তাহলে print করবে (<)
 এবং num2 এর তুলনায় num1 যদি বড় হয় তাহলে print করবে (>)।
-"""
+
 user_input = int(input("How Many times Looping :"))
 start = 1
 
@@ -175,5 +173,5 @@ while start <= user_input:
         print("=")
     start+= 1
 
-
+"""
 
